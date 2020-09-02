@@ -2,7 +2,7 @@ import React from 'react';
 import Score from '../components/score/Score';
 import Button from '../components/button/Button';
 
-function App() {
+function TrucoGaucho() {
   const buttons = new Array<Button>();
   const envido = new Button("Envido", 123);
   const realEnvido = new Button("Real envido", 321);
@@ -15,4 +15,4 @@ function App() {
     )
 }
 
-export default App;
+export default TrucoGaucho;
